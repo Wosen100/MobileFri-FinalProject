@@ -1,46 +1,9 @@
-body {
-  font-family: 'Kaisei HarunoUmi', serif;
+@media only screen and (max-width: 43.75em) {
+  /* CSS rules here */
+  .address,
+  .address__salutation {
+    font-size: 2.8em;
+  }
 
+  
 }
-
-
-li {
-    display: inline;
-  }
-
-  li {
-    float: left;
-  }
-  
-  a {
-    display: block;
-    padding: 14px;
-    background-color: #a118f0;
-    color: cornsilk;
-  }
-/* Add a gray right border to all list items, except the last item (last-child) */
-li {
-    border-right: 1px solid #bbb;
-  }
-  
-  li:last-child {
-    border-right: none;
-  }
-
-  ul {
-    background-color: rgb(80, 48, 6);
-  }
-
-li {
-    border-right: 1px solid #bbb;
-  }
-  
-  li:last-child {
-    border-right: none;
-  }
-/* --to make the nav fixed */
-  ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }

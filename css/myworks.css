@@ -12,7 +12,7 @@
   .main {
       padding: 30px;
       position: relative;
-      height: auto;
+      
   }
 
   .main::after {
@@ -22,7 +22,7 @@
     position: absolute;
     top: 677px;
     left: -15px;
-    background-color: #a2b839;
+    /* background-color: #a2b839; */
     z-index: -1;
   }
   
@@ -155,4 +155,8 @@
   .carousel-item > img {
     height: 400px;
     object-fit:  cover;
+  }
+
+  .carousel-caption {
+    background-color: rgb(15 15 14 / 88%);
   }
