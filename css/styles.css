@@ -6,12 +6,18 @@
     color: #12218f;
 }
 
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
 body {
     background-image: url('../assets/images/background-image.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: -160px;
     overflow-y: scroll; /*show the scroll bar*/
+    background-position: left top;
 
 }
 
@@ -24,7 +30,7 @@ nav {
     display: flex;
     /* border: 1px solid red; */
     height: var(--nav-height);/*use variabled that was defined above*/
-    padding: 0 4em;
+    /* padding: 0 4em; */
     z-index: 1;
 }
 
@@ -39,7 +45,7 @@ nav {
     height: 40px;
     border: 1px solid;
     overflow: hidden;
-    padding: 0;
+    /* padding: 0; */
 }
 
 .nav__img {
@@ -109,11 +115,15 @@ nav {
     color: white;
 }
 
-@media screen and (max-width: 1280px) {
+.footer > h3 {
+    font-size: 15px;
+}
+
+/* @media screen and (max-width: 1280px) {
     body {
         background-size: 250%;
         height: 100vh;
         width: 100vw;
         background-position: left top;
       }
-}
+} */
