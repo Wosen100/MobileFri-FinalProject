@@ -2,7 +2,7 @@
 
 .main {
     display: flex;
-    height: unset;
+    /* height: unset; */
     margin-bottom: 2em;
     margin-top: 2em;
     
@@ -112,3 +112,9 @@ a:hover span:nth-child(3){
     transition: 1s;
 
 } */
+
+@media screen and (max-width: 1024px) {
+    .main, .about__right {
+        height: fit-content;
+    }
+}
