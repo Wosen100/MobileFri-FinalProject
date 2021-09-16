@@ -119,11 +119,11 @@ nav {
     font-size: 15px;
 }
 
-/* @media screen and (max-width: 1280px) {
+ @media screen and (max-width: 1280px) {
     body {
         background-size: 250%;
         height: 100vh;
         width: 100vw;
         background-position: left top;
       }
-} */
+}
