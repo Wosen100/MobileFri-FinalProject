@@ -48,3 +48,6 @@
         height: fit-content;
     }
 }
+.about__heading {
+    text-align: center;
+}
