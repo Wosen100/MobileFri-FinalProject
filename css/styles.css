@@ -13,7 +13,7 @@ html, body {
 
 body {
     background-image: url('../assets/images/background-image.jpg');
-    background-repeat: no-repeat;
+    background-repeat:repeat;
     background-size: 100%;
     background-position-y: -160px;
     overflow-y: scroll; /*show the scroll bar*/
