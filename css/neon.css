@@ -10,7 +10,7 @@
   
 } */
 
-a {
+a.myworks_top_btn {
 position: relative;
 display: inline-block;
 padding: 15px 30px;
@@ -23,7 +23,7 @@ overflow: hidden;
 transition : 0.2s; 
 }
 
-a:hover
+a.myworks_top_btn:hover
 {
     color: #25842a;
     background: #dae72a;
@@ -32,13 +32,13 @@ a:hover
 
 }
 
-a span 
+a.myworks_top_btn span 
 {
     position: absolute;
     display: block;
 
 }
-a span:nth-child(1)
+a.myworks_top_btn span:nth-child(1)
 
 {
     top:0;
@@ -53,7 +53,7 @@ a:hover span:nth-child(1){
     transition: 1s;
 
 }
-a span:nth-child(3)
+a.myworks_top_btn span:nth-child(3)
 
 {
     bottom:0;
